@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Worm Wrangler</title>
+    <link rel="stylesheet" type="text/css" href="css/introPage.css"/>
+</head>
+<body>
+    <h1>Worm Wrangler</h1>
+    <div class="container">
+        <div class="innerContainer">
+            <img src="image/intro.png" width="600" height="495" alt="game image"/>
+        </div>
+        <div class="innerContainer2">
+            <div class="gloveCustomizationArea">
+                <p id="customGloves">Choose Your Gloves:</p>
+                <div class="gloves">
+                    <div class="gloveImage" id="glove1" style="border: 2px solid black;"></div>
+                    <div class="gloveImage" id="glove2"></div>
+                    <div class="gloveImage" id="glove3"></div>
+                </div>
+            </div>
+            <div class="goToGameButtonDiv">
+                <button id="goToGameButton">
+                    Go To Game
+                </button>
+            </div>
+            <div class="soundDiv">
+                <label class="soundText">Sound:</label>
+                <input type="checkbox" id="soundCheckBox">
+                <label class="soundText" id="adjustVolume">Adjust Volume:</label>
+                <input type="range" min="0" max="10" value="5" id="volumeSlider">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/introPage.js"></script>
+</html>
